@@ -1,0 +1,34 @@
+{
+  "name": "espresso",
+  "version": "0.0.0",
+  "description": "Express.js + CoffeeScript boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor -e coffee index.js",
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dotcypress/espresso.git"
+  },
+  "keywords": [
+    "express.js",
+    "coffee"
+  ],
+  "author": {
+    "name": "Vitaly Domnikov",
+    "email": "dotcypress@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.4.8",
+    "coffee-script": "~1.6.3",
+    "lodash": "~2.4.1",
+    "ejs": "~0.8.5",
+    "supervisor": "~0.5.6"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  }
+}
